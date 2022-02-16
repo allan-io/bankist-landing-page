@@ -14,10 +14,194 @@
     <script defer src="script.js"></script>
   </head>
   <body>
-    <header></header>
-    <section></section>
-    <section></section>
-    <section></section>
+    <!-- header -->
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/logo.png"
+          alt="Bankist Logo"
+          class="nav__logo"
+          id="logo"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a href="#section--1" class="nav__link">Features</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#section--2" class="nav__link">Operations</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#section--3" class="nav__link">Testimonials</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#" class="nav__link nav__link--btn btn--show--modal"
+              >Open Account</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <h1>
+          When <span class="highlight">banking</span> meets <br />
+          <span class="highlight">minimalist</span>
+        </h1>
+        <h4>A simpler banking experience for a simpler life</h4>
+        <button class="btn--text btn--scroll-to">Learn More &DownArrow;</button>
+      </div>
+      <img src="img/hero.png" alt="Minimalist bank items" class="header__img" />
+    </header>
+    <!-- section 1 -->
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">Features</h2>
+        <h3 class="section__header">
+          Everything you need in a modern bank and more
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/digital-lazy.jpg"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <!-- feature 1 -->
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">100% Digital Bank</h5>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
+            eum praesentium ratione! Iusto delectus dolorum sequi quaerat ex
+            iste vel.
+          </p>
+        </div>
+        <!-- feature 2 -->
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Watch your money grow</h5>
+          <p>
+            Accusantium esse, porro ipsam atque unde dolor architecto adipisci,
+            ad eveniet voluptatem fugit itaque non veritatis neque
+            exercitationem, autem ducimus laborum eum temporibus.
+          </p>
+        </div>
+        <img
+          src="img/grow-lazy.jpg"
+          alt="Plant"
+          class="features__img lazy-img"
+        />
+        <!-- feature 3 -->
+        <img
+          src="img/card-lazy.jpg"
+          alt="Credit Card"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Free debit card included</h5>
+          <p>
+            Quos quas ipsum, eius voluptate aliquid facere eveniet rem assumenda
+            culpa! Eligendi officia dolores ex at et nisi placeat sapiente
+            deserunt ullam cum excepturi eaque amet magni, facilis reprehenderit
+            quae voluptas molestiae quibusdam, culpa consequuntur fugit ipsum
+            veritatis.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- section 2 -->
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Operations</h2>
+        <h3 class="section__header">Everything as simple as possible</h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn opertarions__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Instant Transfers
+          </button>
+          <button class="btn opertarions__tab operations__tab--2" data-tab="1">
+            <span>02</span>Instant Loans
+          </button>
+          <button class="btn opertarions__tab operations__tab--3" data-tab="1">
+            <span>03</span>Instant Closing
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-upload"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Transfer money to anyone, instantly! No fees, no BS.
+          </h5>
+          <p>
+            Doloribus, rem! Vitae sunt hic vel consectetur commodi placeat
+            mollitia consequuntur est provident porro reiciendis voluptas
+            blanditiis ullam itaque non iste vero dolor excepturi, officiis
+            eligendi saepe nisi. Pariatur, assumenda vel.
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-home"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            Buy a home or make your dreams come true, with instant loans
+          </h5>
+          <p>
+            Placeat quo vel asperiores sapiente, architecto cumque quis ab
+            accusamus, odit, expedita perspiciatis odio tenetur exercitationem
+            possimus neque laborum vero. Corporis, unde laborum incidunt odit
+            voluptas earum minus, iste perferendis maiores commodi aliquam,
+            velit delectus? Obcaecati sequi doloremque earum omnis quis!
+          </p>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-user-x"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            No longer need your account? No problem! Close it instantly.
+          </h5>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi,
+            dolor dolores aspernatur delectus facilis, quis consectetur a
+            corrupti facere tempora accusamus rerum esse qui ab? Fugiat, nemo
+            sunt sit asperiores totam facere quas ipsa tempore.
+          </p>
+        </div>
+      </div>
+    </section>
     <footer></footer>
     <div></div>
     <div></div>
