@@ -138,13 +138,13 @@
             class="btn opertarions__tab operations__tab--1 operations__tab--active"
             data-tab="1"
           >
-            <span>01</span>Instant Transfers
+            <span>01</span> Instant Transfers
           </button>
           <button class="btn opertarions__tab operations__tab--2" data-tab="1">
-            <span>02</span>Instant Loans
+            <span>02</span> Instant Loans
           </button>
           <button class="btn opertarions__tab operations__tab--3" data-tab="1">
-            <span>03</span>Instant Closing
+            <span>03</span> Instant Closing
           </button>
         </div>
         <div
@@ -202,8 +202,150 @@
         </div>
       </div>
     </section>
-    <footer></footer>
-    <div></div>
-    <div></div>
+    <!-- section 3 -->
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testamonials">
+        <h2 class="section__description">Not sure yet?</h2>
+        <h3 class="section__header">
+          Millions of Bankists are already making their lives simpler
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide slide--1">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Best financial decision ever!</h5>
+            <blockquote class="testimonial__text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. In
+              commodi adipisci modi culpa harum fugit officiis rem, repellendus
+              hic labore magnam ratione consectetur perspiciatis non facilis!
+              Assumenda dolorem mollitia cupiditate. Nostrum, consequuntur esse
+              nihil hic natus quia, ratione reprehenderit dolorum delectus
+              perferendis asperiores, at omnis assumenda unde? Aliquam, impedit
+              earum?
+            </blockquote>
+            <adress class="testimonial__author">
+              <img
+                src="img/user-1.jpg"
+                alt="photo of bank member"
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Aarav Lynn</h6>
+              <p class="testimonial__location">San Francisco, USA</p>
+            </adress>
+          </div>
+        </div>
+
+        <div class="slide slide--2">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              The last step to becoming a complete minimalist
+            </h5>
+            <blockquote class="testimonial__text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. In
+              commodi adipisci modi culpa harum fugit officiis rem, repellendus
+              hic labore magnam ratione consectetur perspiciatis non facilis!
+              Assumenda dolorem mollitia cupiditate. Nostrum, consequuntur esse
+              nihil hic natus quia, ratione reprehenderit dolorum delectus
+              perferendis asperiores, at omnis assumenda unde? Aliquam, impedit
+              earum?
+            </blockquote>
+            <adress class="testimonial__author">
+              <img
+                src="img/user-2.jpg"
+                alt="photo of bank member"
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Miyah Miles</h6>
+              <p class="testimonial__location">London, UK</p>
+            </adress>
+          </div>
+        </div>
+
+        <div class="slide slide--3">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              Finally free from oldschool banks
+            </h5>
+            <blockquote class="testimonial__text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. In
+              commodi adipisci modi culpa harum fugit officiis rem, repellendus
+              hic labore magnam ratione consectetur perspiciatis non facilis!
+              Assumenda dolorem mollitia cupiditate. Nostrum, consequuntur esse
+              nihil hic natus quia, ratione reprehenderit dolorum delectus
+              perferendis asperiores, at omnis assumenda unde? Aliquam, impedit
+              earum?
+            </blockquote>
+            <adress class="testimonial__author">
+              <img
+                src="img/user-3.jpg"
+                alt="photo of bank member"
+                class="testimonial__photo"
+              />
+              <h6 class="testimonial__name">Francisco Gomes</h6>
+              <p class="testimonial__location">Lisbon, Portugal</p>
+            </adress>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+    <!-- section 4 -->
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          The best day to join Bankist was one year ago. The second best is
+          today!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Open your free account today!</button>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a href="#" class="footer__link">About</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a href="#" class="footer__link">Contact Us</a>
+        </li>
+      </ul>
+      <img src="img/icon.png" alt="Logo" class="footer__logo" />
+    </footer>
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your bank account <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="text" />
+        <button class="btn">Next Step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
   </body>
 </html>
